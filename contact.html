@@ -1,13 +1,47 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <title>Boris Taratutin | Contact</title>
+    <meta name="author" content="Boris Taratutin"/>
+    <meta name="keywords" content="Sharing, Information, Life, Personal, Resources, Design, Engineering, Philosophy, Student, Adventures, Blog,"/>
+    <meta name="description"
+          content="The personal site of a student, adventurer, designer, engineer, philosophizer, and more. A place where I attempt to document my life and share the things I have found and learned - through projects, thoughts, blogs, resources, and whatever other method I can scourge."/>
+    <link href="default.css" rel="stylesheet" type="text/css"/>
+    <link REL="shortcut icon" HREF="icon.ico">
 
----
-layout: layout
-title: Ideas and Tea
-splash-img: images/headers/wyatt_glasses2.jpg
----
+    <!-- TODO: Add http://brutaldesign.github.io/swipebox/ -->
+</head>
 
-<div id="colOne">
+<body>
+<div id="header">
+    <div id="logo">
+        <h1><span><a href="index.html">Ideas</span>AndTea</a></h1>
+    </div>
+
+    <!-- Menu -->
+    <div id="menu">
+        <ul>
+            <li class="first ""><a href="index.html" title="">home</a></li>
+            <li class=""><a href="projects.html">projects</a></li>
+            <li class=""><a href="ventures.html">ventures</a></li>
+            <li class=""><a href="blog/adventures.html">blog-adventures</a></li>
+            <li class=""><a href="resources.html">resources</a></li>
+            <li class="selected"><a href="contact.html">contact</a></li>
+        </ul>
+    </div>
+</div>
+
+<!-- Splash Image -->
+<div id="splash">
+    <a href="index.html">
+        <img src="images/headers/wyatt_glasses2.jpg" alt=""/>
+    </a>
+</div>
+
+<!-- Yield Content -->
+<div id="content">
+    <div id="colOne">
     <h1>Say hello, yo, wazzup - however you do it!</h1>
     <p>
         It's not that hard. I'm a pretty friendly guy :)
@@ -38,3 +72,27 @@ splash-img: images/headers/wyatt_glasses2.jpg
 
 
 <div style="clear: both;">&nbsp;</div>
+
+</div>
+
+
+<!-- Google Analytics -->
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-6703164-3']);
+    _gaq.push(['_trackPageview']);
+
+    (function () {
+        var ga = document.createElement('script');
+        ga.type = 'text/javascript';
+        ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+
+
+</body>
+</html>
+

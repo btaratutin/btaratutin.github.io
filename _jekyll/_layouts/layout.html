@@ -22,12 +22,12 @@
     <!-- Menu -->
     <div id="menu">
         <ul>
-            <li class="first selected"><a href="index.html" title="">home</a></li>
-            <li><a href="projects.html">projects</a></li>
-            <li><a href="ventures.html">ventures</a></li>
-            <li><a href="blog/adventures.html">blog-adventures</a></li>
-            <li><a href="resources.html">resources</a></li>
-            <li><a href="contact.html">contact</a></li>
+            <li class="first {% if page.title == 'Home' %}selected{% endif %}""><a href="index.html" title="">home</a></li>
+            <li class="{% if page.title == 'Projects' %}selected{% endif %}"><a href="projects.html">projects</a></li>
+            <li class="{% if page.title == 'Ventures' %}selected{% endif %}"><a href="ventures.html">ventures</a></li>
+            <li class="{% if page.title == 'Adventures' %}selected{% endif %}"><a href="blog/adventures.html">blog-adventures</a></li>
+            <li class="{% if page.title == 'Resources' %}selected{% endif %}"><a href="resources.html">resources</a></li>
+            <li class="{% if page.title == 'Contact' %}selected{% endif %}"><a href="contact.html">contact</a></li>
         </ul>
     </div>
 </div>
