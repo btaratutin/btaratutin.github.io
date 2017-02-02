@@ -1,0 +1,29 @@
+/*body {
+	width: auto;
+	border: 0;
+	margin: 0 5%;
+	padding: 0;
+	float: none !important;
+	}*/
+
+body{
+	background: white;
+}
+
+@head {
+    display:none;
+    margin-top: -30px;
+}
+
+a:link, a:visited {
+	color: #EC5600;
+	background: transparent;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+/* Shows URL after links */
+#content a:link:after, #content a:visited:after {
+   content: " (" attr(href) ") ";
+   font-size: 90%;
+   }
